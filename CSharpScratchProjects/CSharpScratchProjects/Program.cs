@@ -11,6 +11,11 @@ namespace CSharpScratchProjects
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+
+            // Create a person object
+            Person p = new Person();
+            p.Id = 1;
+            p.Name = "Rahul";          
         }
     }
 }
